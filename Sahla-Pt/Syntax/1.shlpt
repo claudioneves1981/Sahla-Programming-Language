@@ -1,0 +1,29 @@
+﻿Segoe UI
+17
+False
+False
+False
+#FF000000
+#FFFFFFFF
+False
+True
+False
+' Sintaxe Sahla: 1. Escrevendo na Janela de Saída:
+' -------------------------------------------------------------------------------'
+' Revise a seguinte explicação e depois execute este programa de exemplo para ver os exemplos em ação.
+' Linhas que começam com o símbolo de comentário (') são apenas anotações e não serão executadas.'
+' Para exibir texto sem avançar para uma nova linha, use o comando Escreva
+' seguido de algum texto a ser exibido na posição atual do cursor:
+
+Escreva "Bem-vindo ao Sahla"
+'
+' Para mover o cursor para uma nova linha, use o comando Escreva Linha.
+' Por exemplo, os seguintes comandos forçarão uma quebra de linha após a mensagem de boas-vindas:
+
+Escreva Linha
+Escreva "Aprenda programação da maneira mais fácil"
+Escreva Linha
+'
+' Alternativamente, você pode exibir uma mensagem e adicionar uma nova linha em uma única operação:
+Escreva Linha "Bem-vindo ao Sahla"
+Escreva Linha "Aprenda programação da maneira mais fácil"

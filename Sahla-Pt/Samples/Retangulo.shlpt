@@ -1,0 +1,21 @@
+﻿Segoe UI
+20
+False
+False
+False
+#FF000000
+#FFFFFFFF
+False
+True
+False
+Escreva "Insira o comprimento do retângulo em metros: "
+comprimento = Leia Numero
+
+Escreva "Insira a largura do retângulo em metros: "
+largura = Leia Numero
+
+perimetro = 2 * ( comprimento + largura )
+area = comprimento * largura
+
+Escreva Linha "perimetro Retângulo = " + perimetro + " metros"
+Escreva Linha "área Retangulo = " + area + " metros quadrados"

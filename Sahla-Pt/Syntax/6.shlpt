@@ -1,0 +1,71 @@
+﻿Segoe UI
+20
+False
+False
+False
+#FF000000
+#FFFFFFFF
+False
+True
+False
+' Sintaxe Sahla: 6. Laços:
+' -------------------------------------------------------------------------------'
+' Revise a seguinte explicação e então execute este programa de exemplo para ver os exemplos em ação.'
+' Laço Enquanto (Enquanto ... FimEnq):
+' O laço While é usado para repetir um bloco de código enquanto uma condição permanecer verdadeira.
+' O bloco do laço termina com o token FimEnq.
+' No exemplo a seguir, o programa pede continuamente sua fruta favorita até que você insira uma string vazia.' Inicialmente, a variável é atribuída a uma string não vazia (por exemplo, um espaço) e é então usada para receber a entrada.' O laço continua enquanto a variável contiver algum texto.
+' Quando a condição se torna falsa, o laço termina e a execução passa para a linha seguinte a FimEnq.
+FrutaFavorita = " "
+Enquanto FrutaFavorita < > ""
+    Escreva "Qual é a sua fruta favorita?"
+    FrutaFavorita = Leia Texto
+FimEnq
+Escreva Linha "Obrigado"
+'
+' Laço Para ("Para ... Proximo"):
+' Este laço é útil quando você precisa repetir um bloco de código um número conhecido de vezes.
+' Em um laço Para, você escolhe uma variável contadora,
+' especifica seu valor inicial e o valor em que o laço deve terminar.
+' O bloco do laço termina com o token Proximo, que incrementa a contagem em 1.
+' Isso continua enquanto o contador não tiver excedido o valor final.
+' O exemplo a seguir exibe os números de 1 a 5:
+Escreva Linha "-------------------------------------------"
+Escreva Linha "Imprimindo números de 1 a 5"
+Para i = 1 Ate 5
+    Escreva Linha i
+Proximo i
+'
+' Você também pode usar a cláusula "Passo" para incrementar o contador por qualquer valor que desejar,
+'em vez de 1. O exemplo a seguir imprime os números ímpares, começando de 1
+'E aumentando em 2 a cada iteração, até que o número ultrapasse 10 :
+Escreva Linha "-------------------------------------------"
+Escreva Linha "Imprimindo números ímpares entre 1 e 10"
+Para i = 1 Ate 10 Passo 2
+    Escreva Linha i
+Proximo i
+'
+' Se o passo for negativo, o loop irá em ordem decrescente.
+' Sahla não permite que você escreva números negativos diretamente,
+' mas você pode obtê-los subtraindo um número positivo de zero.
+' O exemplo a seguir imprime os números entre 100 e 10 em ordem decrescente.:
+Escreva Linha "-------------------------------------------"
+Escreva Linha "Imprimindo números entre 100 e 10 em ordem decrescente"
+Para i = 100 Ate 10 Passo ( 0 - 10 )
+    Escreva Linha i
+Proximo i
+'
+'Você pode encerrar laços Enquanto e Para usando o comando Sair.
+' Este comando é tipicamente usado para sair do laço quando uma condição específica é atendida.
+' O exemplo a seguir reformula o cenário da fruta favorita usando o comando Sair.
+' Aqui, usaremos Verdadeiro como condição do Enquanto, o que fará com que ele loop para sempre,
+' mas o encerraremos chamando o comando Sair quando o usuário inserir uma string vazia:
+Escreva Linha "-------------------------------------------"
+Enquanto Verdadeiro
+    Escreva "Qual é a sua fruta favorita?"
+    FrutaFavorita = Leia Texto
+    Se FrutaFavorita = ""
+        Sair
+    FimSe
+FimEnq
+Escreva Linha "Obrigado"

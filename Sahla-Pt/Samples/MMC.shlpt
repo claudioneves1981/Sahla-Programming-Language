@@ -1,0 +1,34 @@
+﻿Segoe UI
+20
+False
+False
+False
+#FF000000
+#FFFFFFFF
+False
+True
+False
+Escreva Linha "Calculando o mínimo múltiplo comum de um conjunto de números:"
+Escreva "Digite um número: "
+num1 = Leia Numero
+num2 = num1
+mmc = num1
+
+Enquanto num2 < > 0
+    a = num1
+    b = num2
+    
+    Enquanto b < > 0
+        resto = a % b
+        a = b
+        b = resto
+    FimEnq
+    
+    mmc = num1 * num2 \ a
+    num1 = mmc
+    
+    Escreva "Digite outro número ou zero para finalizar o programa: "
+    num2 = Leia Numero
+FimEnq
+
+Escreva Linha "O mínimo múltiplo comum = " + mmc

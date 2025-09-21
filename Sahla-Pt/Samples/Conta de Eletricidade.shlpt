@@ -1,0 +1,53 @@
+﻿Segoe UI
+21
+False
+False
+False
+#FF000000
+#FFFFFFFF
+False
+True
+False
+' Preços da tarifa de eletricidade e a taxa de serviço ao cliente por Faixa:
+' Atualize esses valores sempre que eles mudarem:
+TaxaServico = 900    ' Taxa de serviço
+Faixa1 = 68
+Taxa1 = 100
+Faixa2 = 78
+Taxa2 = 200
+Faixa3 = 95
+Taxa3 = 500
+Faixa4 = 155
+Taxa4 = 1100
+Faixa5 = 195
+Taxa5 = 1500
+Faixa6 = 210
+Taxa6 = 2500
+Faixa7 = 223
+Taxa7 = 4000
+
+' Calculando a conta de eletricidade:
+Escreva Linha "Bem-vindo ao programa de cálculo da conta de eletricidade."
+
+Escreva "Insira o consumo mensal: "
+consumo = Leia Numero
+
+Se consumo = 0
+    conta = TaxaServico
+SenaoSe consumo < = 50
+    conta = consumo * Faixa1 + Taxa1
+SenaoSe consumo < = 100
+    conta = 50 * Faixa1 + ( consumo - 50 ) * Faixa2 + Taxa2
+SenaoSe consumo < = 200
+    conta = consumo * Faixa3 + Taxa3
+SenaoSe consumo < = 350
+    conta = 200 * Faixa3 + ( consumo - 200 ) * Faixa4 + Taxa4
+SenaoSe consumo < = 650
+    conta = 200 * Faixa3 + 150 * Faixa4 + ( consumo - 350 ) * Faixa5 + Taxa5
+SenaoSe consumo < = 1000
+    conta = consumo * Faixa6 + Taxa6
+Senao
+    conta = consumo * Faixa7 + Taxa7
+FimSe
+
+Escreva Linha "A conta = " + conta / 100 + " Reais"

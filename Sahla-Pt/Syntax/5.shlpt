@@ -1,0 +1,93 @@
+﻿Segoe UI
+20
+False
+False
+False
+#FF000000
+#FFFFFFFF
+False
+True
+False
+' Sintaxe Sahla: 5. Instruções Condicionais:
+' -------------------------------------------------------------------------------'
+' Revise a seguinte explicação e, em seguida, execute este programa de exemplo para ver os exemplos em ação.'
+' Instruções condicionais permitem que você crie diferentes caminhos de execução testando uma ou mais condições
+' e executando código com base em qual condição é verdadeira.
+' A instrução "Se" é usada para testar uma condição e executar um bloco de código somente quando essa condição é verdadeira.
+' O bloco de código é colocado entre os tokens "Se" e "FimSe". Exemplo:
+Escreva " Quantos anos você tem? "
+Idade = Leia Numero
+Se Idade < 18
+    Escreva Linha "Você é uma criança."
+FimSe
+'
+Se Idade > = 18
+    Escreva Linha "Você é um adulto."
+FimSe
+'
+' Você também pode usar "Senao" para executar um bloco alternativo de código quando a condição é falsa,
+'o que pode simplificar o exemplo anterior
+'E eliminar a necessidade de testar a condição oposta separadamente:
+Se Idade < 18
+    Escreva Linha "Você é uma criança."
+Senao
+    Escreva Linha "Você é um adulto."
+FimSe
+'
+' O seguinte exemplo determina se um número inserido pelo usuário é par ou ímpar:
+Escreva "Digite um número:"
+Numero = Leia Numero
+Se Numero % 2 = 0    ' O resto da divisão por 2 é igual a zero, o que significa que o número é par..
+    Escreva Linha Numero + " é um número par"
+Senao
+    Escreva Linha Numero + " é um número ímpar"
+FimSe
+'
+' Na forma completa da declaração "Se", você pode testar várias condições sequenciais usando os ramos "SenaoSe".
+' O código para o primeiro ramo que avalia como verdadeiro será executado, e os ramos restantes serão ignorados.
+' Se nenhuma das condições for verdadeira, o código no ramo "Caso contrário" será executado.
+' O exemplo a seguir solicita ao usuário que insira uma nota de exame e exibe a nota correspondente:
+Escreva "Insira sua nota de exame:"
+Pontos = Leia Numero
+Escreva "Nota:"
+Se Pontos > = 90
+    Escreva Linha "Excelente"
+SenaoSe Pontos > = 75
+    Escreva Linha "Muito Bom"
+SenaoSe Pontos > = 60
+    Escreva Linha "Bom"
+SenaoSe Pontos > = 50
+    Escreva Linha "Recuperação"
+Senao
+    Escreva Linha "Reprovado"
+FimSe
+'
+' Os seguintes operadores podem ser usados para compor condições:
+' = significa igual a
+' <> significa diferente de
+' < significa menor que
+' <= significa menor ou igual a
+' > significa maior que
+' >= significa maior ou igual a '
+' O operador 'E' combina duas condições de tal forma que ambas devem ser verdadeiras,
+' Enquanto o operador 'OU' combina duas condições de tal forma que pelo menos uma deve ser verdadeira.
+' Exemplo:
+Escreva "Insira sua Idade:"
+Idade = Leia Numero
+Escreva "Insira seus anos de experiência: "
+Experiencia = Leia Numero
+Se ( Idade > = 22 E Experiencia > = 5 ) Ou Idade > = 30
+    Escreva Linha "Você está qualificado para se candidatar ao emprego"
+Senao
+    Escreva Linha "Você não é elegível para se candidatar ao trabalho"
+FimSe
+'
+'Observe que avaliar uma condição retorna verdadeiro ou falso.
+Escreva Linha "É 3 menor ou igual a 4?" + ( 3 < = 4 )
+Escreva Linha "Mohammed é igual a Ahmed? " + ( "Mohammed" = "Ahmed" )
+'
+'Você também pode usar as palavras-chave Verdadeiro e Falso diretamente no seu código.
+Condicao = ( 4 = 3 )
+Se Condicao = Falso
+    Escreva Linha "a condição é falsa"
+FimSe

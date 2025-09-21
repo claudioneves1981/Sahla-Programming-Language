@@ -1,0 +1,36 @@
+﻿Segoe UI
+18
+False
+False
+False
+#FF000000
+#FFFFFFFF
+False
+True
+False
+'Um programa Para arredondar números:
+'Sahla não inclui uma função de arredondamento embutida, então usaremos o seguinte algoritmo de arredondamento:
+'Obtivemos um fator de escala, que é um número decimal com zeros correspondendo ao número de casas decimais desejadas.
+'Por exemplo, se arredondarmos para duas casas decimais, usamos 10^2 para obter 100.
+'Então, multiplicamos o número pelo fator de escala para deslocar o número desejado de casas decimais para a parte inteira.
+'Por exemplo, 4.123 se torna 412.3.
+'Em seguida, adicionamos 0.5 à parte fracionária; se a parte fracionária for menor que 0.5, a parte inteira permanece inalterada,
+'mas se for maior ou igual a 0.5, adicionará 1 à parte inteira.
+'Por exemplo, 412.3 se torna 412.8 enquanto 412.6 se torna 413.1, o que demonstra o processo de arredondamento.
+'Então, realizamos uma divisão inteira (dividindo por 1) no resultado para descartar a parte fracionária.
+'Por exemplo, 412.8 se torna 412 enquanto 413.1 se torna 413.
+'Finalmente, restauramos as casas decimais deslocadas para suas posições originais, dividindo pelo fator de escala, mas desta vez usando divisão decimal para reter a parte fracionária.
+
+Enquanto Verdadeiro
+    Escreva "Insira um número decimal: "
+    Numero = Leia Numero
+    
+    Escreva "Quantas casas decimais você quer arredondar?"
+    decimais = Leia Numero
+    
+    deslocamento = 10 ^ decimais
+    result = ( Numero * deslocamento + 0.5 ) \ deslocamento
+    Escreva Linha "Número arredondado = " + result
+    
+    Escreva Linha "----------------------------------"
+FimEnq

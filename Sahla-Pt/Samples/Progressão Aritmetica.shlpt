@@ -1,0 +1,25 @@
+﻿Segoe UI
+18
+False
+False
+False
+#FF000000
+#FFFFFFFF
+False
+True
+False
+Escreva "Digite o primeiro termo da progressão aritmética: "
+Termo = Leia Numero
+Escreva "Digite o incremento: "
+Incremento = Leia Numero
+Escreva "Digite o número de termos: "
+Cont = Leia Numero
+
+Escreva Linha "----" * ( Cont + 3 )
+Escreva "Sequencia: "
+Para n = 1 Ate Cont - 1
+    Escreva Termo + ", "
+    Termo = Termo + Incremento
+Proximo n
+Escreva Linha Termo
+Escreva Linha "----" * ( Cont + 3 )

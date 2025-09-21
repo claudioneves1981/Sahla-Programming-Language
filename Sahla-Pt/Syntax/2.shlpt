@@ -1,0 +1,75 @@
+﻿Segoe UI
+20
+False
+False
+False
+#FF000000
+#FFFFFFFF
+False
+True
+False
+' Sintaxe Sahla: 2. Variáveis:
+' -------------------------------------------------------------------------------'
+' Revise a seguinte explicação e, em seguida, execute este programa de exemplo para ver os exemplos em ação.'
+' Uma variável representa um local de armazenamento na memória. Você atribui um valor a uma variável usando o operador '='.
+' Em uma atribuição, o valor do lado direito é armazenado na variável do lado esquerdo:
+Inicio = 1
+Escreva "Inicio= "
+Escreva Linha Inicio
+'
+' Os nomes de variáveis devem consistir em letras e podem incluir números, desde que não comecem com um dígito.
+Valor1 = 1
+Valor2 = 2
+Escreva "Primeiro valor = "
+Escreva Linha Valor1
+Escreva "Segundo valor = "
+Escreva Linha Valor2
+'
+' Nomes de variáveis não podem conter espaços.
+' Portanto, se você quiser usar um nome de variável composto por duas palavras, junte-as com um sublinhado (_):.
+Terceiro_valor = 3
+Escreva "Terceiro valor = "
+Escreva Linha Terceiro_valor
+'
+' Você também pode remover o sublinhado e unir as duas palavras, com a segunda começando com uma letra maiúscula para facilitar a leitura:'
+TerceiroValor = 3
+Escreva "Terceiro valor = "
+Escreva Linha TerceiroValor
+'
+' Nota: Sahla não diferencia maiúsculas de minúsculas.
+' Isso significa que identificadores são avaliados sem considerar o uso de letras maiúsculas ou minúsculas.
+' Por exemplo, TerceiroValor, terceirovalor e TERCEIROVALOR referem-se à mesma variável.
+TerceiroValor = 42
+Escreva "Terceiro valor ('usando letras minúsculas.): "
+Escreva Linha TerceiroValor
+'
+'Você pode atualizar o valor de uma variável a qualquer momento. Por exemplo:
+s = 10
+s = 15
+'
+' Você pode recuperar o valor de uma variável referindo-se a ela no lado direito de uma atribuição.
+' Por exemplo, o seguinte comando copia o valor da variável "Início" para a variável "Posição":
+Inicio = 10
+Posicao = Inicio
+Escreva "Posição = "
+Escreva Linha Posicao
+'
+' Você pode atualizar o valor de uma variável usando-a em ambos os lados do operador '='.
+' O seguinte comando incrementa o valor de Posicao em 2:
+Posicao = Posicao + 2
+Escreva "Posição após adicionar 2 = "
+Escreva Linha Posicao
+'
+' O comando anterior é equivalente aos dois comandos abaixo:
+NovoValor = Posicao + 2
+Posicao = NovoValor
+'
+' Você pode atribuir um texto a variáveis colocando-o entre aspas:
+Exemplo = "Este é um exemplo de um texto."
+Escreva Linha Exemplo
+'
+' Você pode concatenar strings usando o operador '+'.:
+PrimeiroNome = "Cláudio"
+UltimoNome = "Neves"
+NomeCompleto = PrimeiroNome + " " + UltimoNome
+Escreva Linha "Nome Completo " + NomeCompleto

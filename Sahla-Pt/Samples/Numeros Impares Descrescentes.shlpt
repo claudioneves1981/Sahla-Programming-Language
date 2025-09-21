@@ -1,0 +1,16 @@
+﻿Segoe UI
+20
+False
+False
+False
+#FF000000
+#FFFFFFFF
+False
+True
+False
+Escreva Linha "Imprimindo números ímpares em ordem decrescente de 11 a 1"
+
+neg2 = 0 - 2
+Para n = 11 Ate 1 Passo neg2
+    Escreva Linha n
+Proximo n

@@ -1,0 +1,48 @@
+﻿Segoe UI
+20
+False
+False
+False
+#FF000000
+#FFFFFFFF
+False
+True
+False
+' Sintaxe do Sahla: 7. Sons:
+' -------------------------------------------------------------------------------'
+' Revise a seguinte explicação e, em seguida, execute este programa de exemplo para ver os exemplos em ação.
+'
+' O comando Executar é usado para tocar tons incorporados,
+' ou para tocar um arquivo de áudio com extensão .wav ou .mp3 do dispositivo do usuário.'
+' Os sons incorporados incluem Bipe, Sino, Ding, Clique e Badalar.
+' O seguinte exemplo toca todos eles:
+Escreva Linha "Tocando Bipe sound:"
+Executar Bipe
+Espera
+Escreva Linha "Tocando Sino sound:"
+Executar Sino
+Espera
+Escreva Linha "Tocando Ding sound:"
+Executar Ding
+Espera
+Escreva Linha "Tocando Clique sound:"
+Executar Clique
+Espera
+Escreva Linha "Tocando Badalar tone:"
+Executar Badalar
+Espera
+'
+' Nota: O comando Esperar pausa o programa por um segundo, permitindo que o som termine de tocar.
+' Sem ele, cada novo som cancelaria o anterior, então apenas o último som seria ouvido.
+' Você também pode fornecer um período de tempo (em milissegundos) após o comando Esperar,
+' Por exemplo, 'Espera 2000' pausa por 2000 milissegundos (2 segundos),
+' enquanto 'Espera 500' pausa por meio segundo.
+' O seguinte exemplo toca o som do sino três vezes consecutivas,
+' aguardando dois segundos entre cada iteração, e finalmente toca o som de Bipe.
+' (Se você remover os comandos Esperar, você ouvirá apenas o som de Bipe!)
+Escreva Linha "Tocando o piano 3 vezes e depois o som do bipe:"
+Para s = 1 Ate 3
+    Executar Badalar
+    Espera 2000
+Proximo s
+Executar Bipe

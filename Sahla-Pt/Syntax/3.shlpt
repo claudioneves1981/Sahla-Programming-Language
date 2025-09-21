@@ -1,0 +1,90 @@
+﻿Segoe UI
+20
+False
+False
+False
+#FF000000
+#FFFFFFFF
+False
+True
+False
+'Sahla Syntax: 3. Operações Matemáticas:
+' -------------------------------------------------------------------------------'
+' Revise a seguinte explicação e então execute este programa de exemplo para ver os exemplos em ação.'
+' O operador + é usado para somar números ou concatenar strings:
+
+Operacao = "5 + 2 = "
+Resultado = 5 + 2
+Escreva Linha Operacao + Resultado
+'
+'O operador '-' é usado para subtrair números:
+' -------------------------------------------------------------------------------'
+' Revise a seguinte explicação e, em seguida, execute este programa de exemplo para ver os exemplos em ação.'' Uma variável representa um local de armazenamento na memória. Você atribui um valor a uma variável usando o operador '='.
+' Em uma atribuição, o valor do lado direito é armazenado na variável do lado esquerdo:
+Inicio = 11
+Posicao = 20
+Comprimento = Posicao - Inicio + 1
+Escreva Linha "Inicio = " + Inicio
+Escreva Linha "Posicao = " + Posicao
+Escreva Linha "Comprimento = " + Comprimento
+'
+' O operador * é usado para multiplicação:
+Escreva "4 * 5 = "
+Escreva Linha 4 * 5
+'
+' O operador / é usado para realizar a divisão, resultando em valores decimais quando aplicável:
+Resultado = 5 / 2
+Escreva Linha "O resultado da divisão de 5 por 2 é " + Resultado
+'
+' O operador  é usado para realizar a divisão inteira, descartando qualquer parte fracionária:
+ValorDecimal = 21 / 5
+ValorInteiro = 21 \ 5
+Escreva Linha "Dividir 21 por 5 resulta em" + ValorDecimal
+Escreva Linha " e, sem decimais," + ValorInteiro
+'
+' O operador % é usado para obter o resto de uma divisão:
+Resultado = 21 \ 4
+Resto = 21 % 4
+Escreva Linha "21 \ 4 = " + Resultado + " com um resto de " + Resto
+'
+' O operador ^ é usado para exponenciação:
+Escreva "10 elevado a 2 ="
+Escreva Linha 10 ^ 2
+'
+' As expressões aritméticas podem conter múltiplos operadores; a ordem padrão das operações se aplica:
+' primeiro a exponenciação, depois multiplicação e divisão, e finalmente adição e subtração:
+
+Escreva "4 + 2 × 15 - 9 / 3 = "
+Escreva Linha 4 + 2
+'
+' Os parênteses podem ser usados para impor uma ordem específica de operações:
+Escreva "(4 + 2) × (15 - 9) / 3 = "
+Escreva Linha ( 4 + 2 )
+'
+' Parênteses também podem ser usados para diferenciar entre adição numérica e concatenação de strings:
+Escreva Linha "Sem parênteses: 5 + 3 = " + 5 + 3
+Escreva Linha "Com parênteses: 5 + 3 = " + ( 5 + 3 )
+'
+' O comando Aleatorio é usado para obter um número aleatório dentro da faixa de 1 a 100.:
+r = Aleatorio
+'
+' Para alterar a faixa de números aleatórios, a divisão e a multiplicação podem ser aplicadas.
+'Por exemplo, Para obter um número aleatório entre 20 E 40 :
+'Divida o número aleatório por 5 Para produzir um valor entre 0 E 20 ,
+'depois adicione 20 Para garantir que o resultado final esteja entre 20 E 40.
+Escreva Linha "------------------------------------------"
+Escreva Linha "10 números aleatórios entre 20 e 40:"
+Para s = 1 Ate 10
+    Escreva Linha 20 + Aleatorio \ 5
+Proximo s
+'
+' Você também pode usar o operador de resto
+' para garantir que o número aleatório não exceda um certo valor máximo.
+' Por exemplo, para obter um número aleatório entre 23 e 77,
+' use Aleatorio % 55 que retorna um valor na faixa de 0 a 54,
+' depois adicione 23 para obter um valor na faixa de 23 a 77.
+Escreva Linha "------------------------------------------"
+Escreva Linha "10 números aleatórios entre 23 e 77:"
+Para s = 1 Ate 10
+    Escreva Linha 23 + Aleatorio % 55
+Proximo s

@@ -1,0 +1,23 @@
+﻿Segoe UI
+20
+False
+False
+False
+#FF000000
+#FFFFFFFF
+False
+True
+False
+Escreva "Insira a base: "
+base = Leia Numero
+
+Escreva "Insira o expoente:"
+exp = Leia Numero
+
+result = 1
+Para n = 1 Ate exp
+    result = result * base
+Proximo n
+
+Escreva Linha "Resultado usando multiplicação repetida = " + result
+Escreva Linha "Resultado usando o operador ^ = " + ( base ^ exp )

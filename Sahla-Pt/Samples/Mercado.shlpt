@@ -1,0 +1,38 @@
+﻿Segoe UI
+19
+False
+False
+False
+#FF000000
+#FFFFFFFF
+False
+True
+False
+Escreva Linha "Diálogo com o vendedor"
+Escreva Linha "--------------------"
+Escreva Linha "Um pedaço de doce, por favor."
+Escreva "5 reais.. Quanto dinheiro você tem?"
+dinheiro = Leia Numero
+troco = dinheiro - 5
+
+Se troco = 0
+    Escreva Linha "Aqui está o seu doce."
+SenaoSe troco < 0
+    Escreva "Você me deu " + dinheiro + " reais e você está em falta por"
+    Escreva Linha ( 0 - troco ) + " reais"
+    Escreva Linha "Se você se importar, eu pagarei na próxima vez."
+    Escreva Linha "Sem problema"
+SenaoSe ( troco % 10 ) > 0
+    Escreva "Você precisa " + troco
+    Escreva " reais de mim, mas eu não tenho moedas para quantias inferiores a 10. "
+    Se troco < 10
+        Escreva Linha "Você os aceitaria como doces?"
+    Senao
+        Escreva "Por favor, leve " + ( ( troco \ 10 ) * 10 ) + " reais"
+        Escreva Linha " e leve " + ( troco % 10 ) + " reais como doces"
+    FimSe
+Senao
+    Escreva Linha "Aqui está o seu " + troco + " reais."
+FimSe
+
+Escreva Linha "Certo, obrigado."

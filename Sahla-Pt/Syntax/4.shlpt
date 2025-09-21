@@ -1,0 +1,30 @@
+﻿Segoe UI
+20
+False
+False
+False
+#FF000000
+#FFFFFFFF
+False
+True
+False
+' Sintaxe Sahla: 4. Lendo Entradas:
+' -------------------------------------------------------------------------------'
+' Revise a seguinte explicação e, em seguida, execute este programa de exemplo para ver os exemplos em ação.'
+' O comando "Leia Numero" é usado para ler um valor numérico do usuário.
+' Este comando exibe uma caixa de texto na posição de saída atual,' permitindo que o usuário insira apenas dígitos e, em seguida, pressione a tecla Enter para enviar o número.' Você recebe esse número em uma variável para poder usá-lo em operações aritméticas subsequentes.
+' Exemplo: Lendo dois números do usuário e somando-os:
+Escreva "Insira o primeiro número: "
+Numero1 = Leia Numero
+Escreva "Insira o segundo número:"
+Numero2 = Leia Numero
+Escreva Linha "A soma dos dois números " + ( Numero1 + Numero2 )
+'
+' O comando "Leia Texto" é usado para ler uma string do usuário.
+' Neste exemplo, o usuário é solicitado a inserir seu primeiro nome e sobrenome,
+' e então o nome completo é exibido na tela:
+Escreva " Digite seu primeiro nome:"
+PrimeiroNome = Leia Texto
+Escreva "Digite seu sobrenome:"
+UltimoNome = Leia Texto
+Escreva Linha "Olá, " + PrimeiroNome + " " + UltimoNome

@@ -1,0 +1,25 @@
+﻿Segoe UI
+20
+False
+False
+False
+#FF000000
+#FFFFFFFF
+False
+True
+False
+Escreva Linha "Números primos entre 2 e 50"
+
+Para Numero = 2 Ate 50
+    ehPrimo = Verdadeiro
+    Para divisor = 2 Ate Numero - 1
+        Se Numero % divisor = 0
+            ehPrimo = Falso
+            Sair
+        FimSe
+    Proximo divisor
+    
+    Se ehPrimo
+        Escreva Linha Numero + " é um número primo"
+    FimSe
+Proximo Numero

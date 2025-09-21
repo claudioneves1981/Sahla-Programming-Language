@@ -1,0 +1,6 @@
+﻿17/09/2025 14:19:58
+The event handler sub `MnuSaveAs_OnClick` caused this error: O valor não recai no intervalo esperado.
+17/09/2025 14:20:03
+The event handler sub `MnuSaveAs_OnClick` caused this error: O valor não recai no intervalo esperado.
+17/09/2025 14:20:24
+The event handler sub `MnuSaveAs_OnClick` caused this error: O valor não recai no intervalo esperado.

@@ -1,0 +1,30 @@
+﻿Segoe UI
+19
+False
+False
+False
+#FF000000
+#FFFFFFFF
+False
+True
+False
+Escreva Linha "Calculando o maior divisor comum e o menor múltiplo comum para dois números:"
+
+Escreva "Insira o primeiro número: "
+numero1 = Leia Numero
+
+Escreva "Insira o segundo número: "
+numero2 = Leia Numero
+
+numerador = numero1
+divisor = numero2
+
+Enquanto divisor > 0
+    resto = numerador % divisor
+    numerador = divisor
+    divisor = resto
+FimEnq
+
+mdc = numerador
+Escreva Linha "Máximo divisor comum= " + mdc
+Escreva Linha "Mínimo múltiplo comum = " + numero1 * numero2 \ mdc

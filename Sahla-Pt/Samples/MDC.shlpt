@@ -1,0 +1,33 @@
+﻿Segoe UI
+20
+False
+False
+False
+#FF000000
+#FFFFFFFF
+False
+True
+False
+Escreva Linha "Calculando o maior divisor comum para um conjunto de números:"
+Escreva "Digite um número:"
+numero1 = Leia Numero
+numero2 = numero1
+
+Enquanto numero2 > 0
+    numerador = numero1
+    divisor = numero2
+    
+    Enquanto divisor < > 0
+        resto = numerador % divisor
+        numerador = divisor
+        divisor = resto
+    FimEnq
+    
+    numero1 = numerador
+    
+    Escreva "Digite outro número ou zero para finalizar o programa:"
+    numero2 = Leia Numero
+FimEnq
+
+mdc = numerador
+Escreva Linha "O maior divisor comum é = " + mdc

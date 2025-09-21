@@ -1,0 +1,54 @@
+﻿Segoe UI
+20
+False
+False
+False
+#FF000000
+#FFFFFFFF
+False
+True
+False
+Escreva Linha "Calculando A/B + C/D"
+
+' Leia os valores de A, B, C e D:
+Escreva "Informe o valor de A:"
+A = Leia Numero
+Escreva "Informe o valor de B: "
+B = Leia Numero
+Escreva "Informe o valor de C:"
+C = Leia Numero
+Escreva "Informe o valor de D:"
+D = Leia Numero
+
+' Calcule o mínimo múltiplo comum (MMC) de B e D
+' a ser usado como o denominador da fração resultante:
+mdc = B
+divisor = D
+
+Enquanto divisor > 0
+    resto = mdc % divisor
+    mdc = divisor
+    divisor = resto
+FimEnq
+
+mmc = B * D \ mdc
+
+' Calcule o numerador da fração resultante:
+numerador = mmc / B * A + mmc / D * C
+
+' Imprima o resultado:
+Escreva A + "/" + B
+Escreva " + "
+Escreva C + "/" + D
+Escreva " = "
+Escreva numerador + "/" + mmc
+
+' Simplifique a fração comum resultante:
+Se numerador > mmc
+    parteInteira = numerador \ mmc
+    resto = numerador % mmc
+    Escreva " = " + parteInteira
+    Se resto > 0
+        Escreva " + " + resto + "\" + mmc
+    FimSe
+FimSe

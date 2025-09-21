@@ -1,0 +1,23 @@
+﻿Segoe UI
+19
+False
+False
+False
+#FF000000
+#FFFFFFFF
+False
+True
+False
+Escreva "Olá.. Eu sou Sahla. Qual é o seu nome?"
+nome = Leia Texto
+
+Enquanto nome = ""
+    Escreva "Por favor, digite seu nome! "
+    nome = Leia Texto
+FimEnq
+
+Escreva Linha "Estou encantado com a sua presença. Permita-me dar-lhe as boas-vindas 5 vezes:"
+
+Para n = 1 Ate 5
+    Escreva Linha n + "- Olá, (" + nome + ")! "
+Proximo n

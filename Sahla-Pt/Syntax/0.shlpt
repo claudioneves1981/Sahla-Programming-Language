@@ -1,0 +1,33 @@
+﻿Segoe UI
+15
+False
+False
+False
+#FF000000
+#FFFFFFFF
+False
+True
+False
+' Bem-vindo ao "Sahla" .. a linguagem de programação educacional fácil
+'Sahla é escrita com a linguagem de programação educacional Small Visual Basic
+' Você encontrará o código-fonte completo do Sahla na pasta de amostras do Small Visual Basic'
+
+' Veja "Crie seu Sahla nativo" no menu de Ajuda.' Observe que o Sahla permite que você converta seu dialeto nativo para o inglês e vice-versa.
+' Basta escolher o tipo de arquivo nas janelas de diálogo quando você abrir ou salvar arquivos.
+' Isso permite que crianças de diferentes países programem em sua própria língua, enquanto ainda consigam
+' se comunicar entre si e compartilhar códigos no dialeto inglês que podem ser
+' convertidos para os dialetos de cada um deles. Eventualmente, isso ajudará as crianças a se acostumarem a programar em inglês.
+' O Sahla também permite converter seus dialetos para código Small Visual Basic, para permitir que as crianças se formem.
+' para o próximo nível de programação. ' Para aprender as regras do "Sahla", abra o menu "Ajuda",
+' em seguida, escolha tópicos do submenu "Sintaxe do Sahla".
+' Cada tópico exibirá um programa educativo com comentários explicativos
+' e exemplos como o que você está lendo agora.
+' Também há alguns exemplos incluídos com a linguagem, com um atalho na área de trabalho.
+' Você pode clicar duas vezes em qualquer um dos arquivos de exemplo nas tres linguas (com a extensão .shlen, shlpt ou shl) no Windows Explorer,
+' para abri-lo diretamente no "Sahla", portanto, você pode executá-lo clicando no comando "Executar" no ' menu "Programa", ou você pode simplesmente pressionar a tecla F5 localizada na parte superior do teclado.
+' Como exemplo, pressione F5 para executar este programa:
+Escreva Linha "Bem-vindo ao Sahla"
+Escreva Linha "Desejando sucesso a todos:"
+' Nota: O tamanho da fonte da janela de saída é o mesmo que o do editor de código aqui,
+' e você pode aumentá-lo rolando a roda do mouse para cima ou para baixo
+' enquanto mantém a tecla Ctrl pressionada no teclado.

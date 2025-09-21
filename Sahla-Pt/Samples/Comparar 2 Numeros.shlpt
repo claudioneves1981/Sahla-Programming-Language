@@ -1,0 +1,23 @@
+﻿Segoe UI
+17
+False
+False
+False
+#FF000000
+#FFFFFFFF
+False
+True
+False
+' Exemplo: Comparando dois números:
+Escreva "Digite o primeiro número:"
+num1 = Leia Numero
+Escreva "Digite o segundo número:"
+num2 = Leia Numero
+
+Se num1 > num2
+    Escreva Linha "O primeiro número (" + num1 + ") é maior que o segundo número (" + num2 + ")"
+SenaoSe num1 < num2
+    Escreva Linha "O primeiro número (" + num1 + ") é menor que o segundo número (" + num2 + ")"
+Senao
+    Escreva Linha "Os dois números são iguais e seu valor é = " + num1
+FimSe

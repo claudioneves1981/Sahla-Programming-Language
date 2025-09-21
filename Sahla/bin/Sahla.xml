@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>Global</name>
+  </assembly>
+  <members>
+    <member name="P:Global.Ops">
+      <summary>`Ops` is an array that works as a dynamic object. Use `!` to add properties to this object or to read them.</summary>
+    </member>
+    <member name="P:Global.Statements">
+      <summary>Array of code lines (strings)</summary>
+    </member>
+    <member name="P:Global.LineIndex">
+      <summary>Our program counter</summary>
+    </member>
+    <member name="P:Global.Tokens">
+      <summary>Tokens array for the current line</summary>
+    </member>
+    <member name="P:Global.Vars">
+      <summary>Array containing variables of current proogram</summary>
+    </member>
+    <member name="P:Global.WhileStack">
+      <summary>Stack name for WHILE loops</summary>
+    </member>
+    <member name="P:Global.ForStack">
+      <summary>Stack name for FOR loops</summary>
+    </member>
+  </members>
+</doc>

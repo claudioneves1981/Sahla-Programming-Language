@@ -1,0 +1,15 @@
+﻿Segoe UI
+20
+False
+False
+False
+#FF000000
+#FFFFFFFF
+False
+True
+False
+Escreva Linha "Números pares de 2 a 20:"
+
+Para Numero = 2 Ate 20 Passo 2
+    Escreva Linha Numero
+Proximo Numero

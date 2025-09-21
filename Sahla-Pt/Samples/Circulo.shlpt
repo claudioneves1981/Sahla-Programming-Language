@@ -1,0 +1,24 @@
+﻿Segoe UI
+19
+False
+False
+False
+#FF000000
+#FFFFFFFF
+False
+True
+False
+Escreva "Digite o raio do círculo em metros:"
+raio = Leia Numero
+
+pi = 22 / 7
+circunferencia = 2 * pi * raio
+' Arredonde a circunferência para as duas casas decimais mais próximas
+circunferencia = ( circunferencia * 100 + 0.5 ) \ 1 / 100
+
+area = pi * raio * raio
+' Arredonde a área para as duas casas decimais mais próximas
+area = ( area * 100 + 0.5 ) \ 1 / 100
+
+Escreva Linha "A circunferência do círculo =" + circumference + " metros"
+Escreva Linha "A área do círculo =" + area + " metros quadrados"

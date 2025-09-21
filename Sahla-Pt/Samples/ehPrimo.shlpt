@@ -1,0 +1,29 @@
+﻿Segoe UI
+20
+False
+False
+False
+#FF000000
+#FFFFFFFF
+False
+True
+False
+num = 1000001
+
+Enquanto num > 1000000
+    Escreva "Digite um número menor ou igual a um milhão: "
+    num = Leia Numero
+FimEnq
+
+ehPrimo = Verdadeiro
+Para n = 2 Ate num ^ 0.5
+    Se num % n = 0
+        Escreva Linha "O numero " + num + " não é primo, porque é divisível por " + n
+        ehPrimo = Falso
+        Sair
+    FimSe
+Proximo n
+
+Se ehPrimo
+    Escreva "O número " + num + " é primo."
+FimSe
