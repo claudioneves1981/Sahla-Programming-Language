@@ -1,5 +1,7 @@
-' Crie sua própria Sahla nativa em poucos minutos! ' -----------------------------------------------------
+## Crie sua própria Sahla nativa em poucos minutos! 
+
 ' Você também pode assistir a este vídeo: ' https://youtu.be/VY6VG8nwFhc
+
 ' É fácil traduzir a sintaxe do Sahla para sua língua nativa, permitindo que seus filhos
 ' aprendam programação facilmente, sem enfrentar a barreira do idioma estrangeiro.
 ' Isso permitirá que você apresente conceitos básicos de programação para crianças pequenas,
@@ -10,10 +12,10 @@
 ' que permite que crianças de todas as nações se comuniquem e compartilhem seus códigos.
 ' Isso também permite que a criança mude facilmente de programação com seu nativo
 ' linguagem para programação com inglês usando o mesmo IDE e conceitos.
-' Para converter o código nativo para o inglês, use o menu ArquivoSalvar como e no menu
+' Para converter o código nativo para o inglês, use o menu Arquivo Salvar como e no menu
 ' salvar arquivo, abra a lista "Salvar como tipo" e escolha
 ' "Arquivos de código Sahla em inglês ("*.shlen")
-'
+
 ' * Sahla é muito pequena, e as crianças logo sentirão a necessidade de passar para
 ' uma língua "maior". A próxima melhor jogada é o Small Visual Basic (sVB),
 ' a linguagem com a qual o Sahla é escrito e usa sua biblioteca de código para escrever,
@@ -25,43 +27,54 @@
 ' Para facilitar a transição para o sVB, o Sahla também permite converter seu código para sVB.
 ' Para fazer isso, use o menu Arquivo  Salvar como e no
 ' salvar arquivo, abra a lista "Salvar como tipo" e escolha
-' "Pequenos Arquivos Básicos ("*.sb")
-'
+' "Small Basic files ("*.sb")
+
 ' Se você achar isso interessante, vamos começar a criar sua Sahla nativa:
+
 ' 1- O código-fonte do Sahla está incluído na pasta de amostras do sVB,
 ' então você deve começar instalando o sVB no seu PC com Windows:
+
 ' https://marketplace.visualstudio.com/items?itemName=ModernVBNET.sVBInstaller
+
 ' 2- Depois de instalar o sVB, clique duas vezes no atalho sVB Samples em sua área de trabalho,
 ' e navegue até "Amostras sVBLinguagem de Programação SahlaSahla-En"
 ' e clique duas vezes no arquivo Global.sb para abri-lo no sVB.
+
 ' 3- Você encontrará 64 linhas no topo do arquivo global, que definem as
 'mensagens de erro e palavras-chave do Sahla.
 'Elas estão em inglês E você pode traduzi - las Para o seu próprio idioma.
 'Você não deve usar espaços Ou símbolos nos nomes das palavras - chave.
+
 ' 4- Use a lista no canto superior direito para navegar até a sub-rotina MapLetters
 ' que é usada para converter nomes de variáveis escritos com as letras do seu idioma
 ' para letras em inglês, para tornar o código convertido em inglês legível em Sahla.
 ' O código da sub-rotina padrão mapeia letras árabes para letras em inglês.
 ' Qualquer letra que não seja mapeada será usada como está no código traduzido,
 ' portanto, se você puder manter seus próprios nomes de variáveis, basta ignorar esta sub-rotina.
+
 ' 5- Mude para a aba "Design do formulário"
 'E Clique duas vezes no item "frmMain" da lista de arquivos do projeto Para abrir seu arquivo de código.
 'No topo deste arquivo,
 'defina o valor da variável RightToLeft como Verdadeiro Se o seu idioma for da direita Para a esquerda.
+
 ' 6- A propriedade Program.UseLocalCulture afeta como os números aparecem.
 ' Defini-la como falsa mostra os números em inglês, enquanto verdadeira os mostra em seu
 ' idioma nativo. Há uma terceira opção, que é deletar ou comentar essa
 ' propriedade, para mostrar os números de acordo com o contexto. Você pode experimentar as
 ' três alternativas para ver qual é a melhor para você.
+
 ' 7- Você também precisa definir o valor da variável SahlaFilesExtension. 'shl' é usado para o dialeto árabe,
 ''shlen' é usado para o inglês,
 'E você deve seguir a mesma fórmula, como usar 'shlpt' para o dialeto português.
+
 ' 8- Role para baixo até a sub-rotina Form_OnShown e remova o comentário da última linha nesta sub-rotina,
 'que faz com que Sahla mude o idioma de entrada do teclado Para o idioma local do PC do usuário:
 ' Program.SwitchKeyboardToLocalLanguage()
+
 ' 9- Volte para o design do formulário e clique com o botão direito em qualquer área vazia do formulário,
 'E Clique no comando "Designer de menu" Para exibi - lo.
 'Use o designer de menu Para traduzir os nomes dos itens do menu Para o seu idioma.
+
 ' 10- Você pode facilmente localizar as outras janelas, como a janela sobre, usando
 ' o designer de formulários.
 ' E é isso! Clique no frmMain para abri-lo e pressione F5 para executar o projeto.
